@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityBienvenida">
+
+    <TextView
+        android:id="@+id/txvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="329dp"
+        android:text="Bienvenid@ a la APP" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txvBienvenida"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#1C8BBD"
+        android:text="Volver"
+        android:textColorHighlight="#BC0B0B"
+        android:textColorLink="#E81111"
+        app:rippleColor="#7E0707"
+        app:strokeColor="#EA1010" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txvBienvenida"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="145dp"
+        android:text="Bienvenido a la App"
+        android:textAlignment="center"
+        android:textColor="#DCE60FC9"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:text="Bienvenid@ a la App"
+        android:textSize="24sp" />
+
+</RelativeLayout>
